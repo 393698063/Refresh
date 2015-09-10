@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		BC2432FD1B422524009CB13F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2432FC1B422524009CB13F /* main.m */; };
 		BC2433001B422524009CB13F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2432FF1B422524009CB13F /* AppDelegate.m */; };
-		BC2433031B422524009CB13F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2433021B422524009CB13F /* ViewController.m */; };
 		BC2433061B422524009CB13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2433041B422524009CB13F /* Main.storyboard */; };
 		BC2433081B422524009CB13F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2433071B422524009CB13F /* Images.xcassets */; };
 		BC24330B1B422524009CB13F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2433091B422524009CB13F /* LaunchScreen.xib */; };
 		BC2433171B422524009CB13F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2433161B422524009CB13F /* ____Tests.m */; };
+		BC2433261B422D7B009CB13F /* GPSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2433251B422D7B009CB13F /* GPSubject.m */; };
+		BC2433291B423148009CB13F /* GPAds.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2433281B423148009CB13F /* GPAds.m */; };
+		BC24332C1B4232BB009CB13F /* GPCircleController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC24332B1B4232BB009CB13F /* GPCircleController.m */; };
+		BC24332E1B423907009CB13F /* quanquan.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC24332D1B423907009CB13F /* quanquan.plist */; };
+		BC2433311B423EDB009CB13F /* GPSubjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2433301B423EDB009CB13F /* GPSubjectCell.m */; };
+		BC2433331B423EF3009CB13F /* GPSubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2433321B423EF3009CB13F /* GPSubjectCell.xib */; };
+		BC2433361B426E8B009CB13F /* GPContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2433351B426E8B009CB13F /* GPContentView.m */; };
+		BC2433381B426ECB009CB13F /* GPContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2433371B426ECB009CB13F /* GPContentView.xib */; };
+		BC67A4801B437B190009D9A9 /* GPFooterRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67A47F1B437B190009D9A9 /* GPFooterRefresh.m */; };
+		BC67A4831B43CF010009D9A9 /* GPTopRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67A4821B43CF010009D9A9 /* GPTopRefreshView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,29 @@
 		BC2432FC1B422524009CB13F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC2432FE1B422524009CB13F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC2432FF1B422524009CB13F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC2433011B422524009CB13F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC2433021B422524009CB13F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BC2433051B422524009CB13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC2433071B422524009CB13F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC24330A1B422524009CB13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BC2433101B422524009CB13F /* 美食圈圈Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美食圈圈Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2433151B422524009CB13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2433161B422524009CB13F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		BC2433241B422D7B009CB13F /* GPSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSubject.h; sourceTree = "<group>"; };
+		BC2433251B422D7B009CB13F /* GPSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSubject.m; sourceTree = "<group>"; };
+		BC2433271B423148009CB13F /* GPAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAds.h; sourceTree = "<group>"; };
+		BC2433281B423148009CB13F /* GPAds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAds.m; sourceTree = "<group>"; };
+		BC24332A1B4232BB009CB13F /* GPCircleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPCircleController.h; sourceTree = "<group>"; };
+		BC24332B1B4232BB009CB13F /* GPCircleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPCircleController.m; sourceTree = "<group>"; };
+		BC24332D1B423907009CB13F /* quanquan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quanquan.plist; sourceTree = "<group>"; };
+		BC24332F1B423EDB009CB13F /* GPSubjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSubjectCell.h; sourceTree = "<group>"; };
+		BC2433301B423EDB009CB13F /* GPSubjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSubjectCell.m; sourceTree = "<group>"; };
+		BC2433321B423EF3009CB13F /* GPSubjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPSubjectCell.xib; sourceTree = "<group>"; };
+		BC2433341B426E8B009CB13F /* GPContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPContentView.h; sourceTree = "<group>"; };
+		BC2433351B426E8B009CB13F /* GPContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPContentView.m; sourceTree = "<group>"; };
+		BC2433371B426ECB009CB13F /* GPContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPContentView.xib; sourceTree = "<group>"; };
+		BC67A47E1B437B190009D9A9 /* GPFooterRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFooterRefresh.h; sourceTree = "<group>"; };
+		BC67A47F1B437B190009D9A9 /* GPFooterRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFooterRefresh.m; sourceTree = "<group>"; };
+		BC67A4811B43CF010009D9A9 /* GPTopRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTopRefreshView.h; sourceTree = "<group>"; };
+		BC67A4821B43CF010009D9A9 /* GPTopRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTopRefreshView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +105,10 @@
 		BC2432F91B422523009CB13F /* 美食圈圈 */ = {
 			isa = PBXGroup;
 			children = (
-				BC2432FE1B422524009CB13F /* AppDelegate.h */,
-				BC2432FF1B422524009CB13F /* AppDelegate.m */,
-				BC2433011B422524009CB13F /* ViewController.h */,
-				BC2433021B422524009CB13F /* ViewController.m */,
-				BC2433041B422524009CB13F /* Main.storyboard */,
-				BC2433071B422524009CB13F /* Images.xcassets */,
-				BC2433091B422524009CB13F /* LaunchScreen.xib */,
+				BC2433231B422D18009CB13F /* Others */,
+				BC2433221B422CF4009CB13F /* Controllers */,
+				BC2433211B422CED009CB13F /* Views */,
+				BC2433201B422CE1009CB13F /* Models */,
 				BC2432FA1B422524009CB13F /* Supporting Files */,
 			);
 			path = "美食圈圈";
@@ -117,6 +138,56 @@
 				BC2433151B422524009CB13F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC2433201B422CE1009CB13F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC2433241B422D7B009CB13F /* GPSubject.h */,
+				BC2433251B422D7B009CB13F /* GPSubject.m */,
+				BC2433271B423148009CB13F /* GPAds.h */,
+				BC2433281B423148009CB13F /* GPAds.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BC2433211B422CED009CB13F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC67A4811B43CF010009D9A9 /* GPTopRefreshView.h */,
+				BC67A4821B43CF010009D9A9 /* GPTopRefreshView.m */,
+				BC67A47E1B437B190009D9A9 /* GPFooterRefresh.h */,
+				BC67A47F1B437B190009D9A9 /* GPFooterRefresh.m */,
+				BC24332F1B423EDB009CB13F /* GPSubjectCell.h */,
+				BC2433301B423EDB009CB13F /* GPSubjectCell.m */,
+				BC2433321B423EF3009CB13F /* GPSubjectCell.xib */,
+				BC2433341B426E8B009CB13F /* GPContentView.h */,
+				BC2433351B426E8B009CB13F /* GPContentView.m */,
+				BC2433371B426ECB009CB13F /* GPContentView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BC2433221B422CF4009CB13F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC24332A1B4232BB009CB13F /* GPCircleController.h */,
+				BC24332B1B4232BB009CB13F /* GPCircleController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BC2433231B422D18009CB13F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BC24332D1B423907009CB13F /* quanquan.plist */,
+				BC2432FE1B422524009CB13F /* AppDelegate.h */,
+				BC2432FF1B422524009CB13F /* AppDelegate.m */,
+				BC2433041B422524009CB13F /* Main.storyboard */,
+				BC2433071B422524009CB13F /* Images.xcassets */,
+				BC2433091B422524009CB13F /* LaunchScreen.xib */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +234,7 @@
 		BC2432EF1B422523009CB13F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GP;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = qq;
 				TargetAttributes = {
@@ -200,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2433061B422524009CB13F /* Main.storyboard in Resources */,
+				BC2433381B426ECB009CB13F /* GPContentView.xib in Resources */,
 				BC24330B1B422524009CB13F /* LaunchScreen.xib in Resources */,
+				BC24332E1B423907009CB13F /* quanquan.plist in Resources */,
 				BC2433081B422524009CB13F /* Images.xcassets in Resources */,
+				BC2433331B423EF3009CB13F /* GPSubjectCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2433031B422524009CB13F /* ViewController.m in Sources */,
 				BC2433001B422524009CB13F /* AppDelegate.m in Sources */,
+				BC67A4801B437B190009D9A9 /* GPFooterRefresh.m in Sources */,
+				BC2433361B426E8B009CB13F /* GPContentView.m in Sources */,
+				BC24332C1B4232BB009CB13F /* GPCircleController.m in Sources */,
+				BC2433291B423148009CB13F /* GPAds.m in Sources */,
+				BC2433311B423EDB009CB13F /* GPSubjectCell.m in Sources */,
+				BC2433261B422D7B009CB13F /* GPSubject.m in Sources */,
+				BC67A4831B43CF010009D9A9 /* GPTopRefreshView.m in Sources */,
 				BC2432FD1B422524009CB13F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +495,7 @@
 				BC24331C1B422524009CB13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC24331D1B422524009CB13F /* Build configuration list for PBXNativeTarget "美食圈圈Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +504,7 @@
 				BC24331F1B422524009CB13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

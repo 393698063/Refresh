@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GPCircleController.h
 //  美食圈圈
 //
 //  Created by qianfeng on 15-6-30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GPCircleController : UIViewController
 
 @end
-
